@@ -22,13 +22,14 @@
     <header class="bg-white dark:bg-gray-800 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <nav class="flex justify-between items-center">
-                <a href="/" class="flex items-center space-x-3">
+                <a href="/engage/" class="flex items-center space-x-3">
+                    <svg class="h-8 w-8 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
                     <span class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">Engage Ai</span>
                 </a>
                 <div class="hidden md:flex space-x-4">
-                    <a href="/" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Home</a>
-                    <a href="/about.html" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">About</a>
-                    <a href="/contact.html" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Contact</a>
+                    <a href="/engage/" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Home</a>
+                    <a href="/engage/about.html" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">About</a>
+                    <a href="/engage/contact.html" class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Contact</a>
                 </div>
                 <button class="md:hidden text-gray-600 dark:text-gray-300" onclick="toggleMobileMenu()">
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,35 +38,54 @@
                 </button>
             </nav>
             <div id="mobile-menu" class="md:hidden hidden mt-4 space-y-2">
-                <a href="/" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Home</a>
-                <a href="/about.html" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">About</a>
-                <a href="/contact.html" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Contact</a>
+                <a href="/engage/" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Home</a>
+                <a href="/engage/about.html" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">About</a>
+                <a href="/engage/contact.html" class="block text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Contact</a>
             </div>
         </div>
     </header>
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 sm:p-8">
-            <h1 class="text-3xl font-bold mb-6 dark:text-white">About Engage Ai</h1>
+            <h1 class="text-3xl font-bold mb-6 dark:text-white">About Us</h1>
             
-            <div class="space-y-6 text-gray-600 dark:text-gray-300">
-                <p>
-                    Engage Ai is a powerful tool designed to help professionals enhance their LinkedIn content for maximum engagement and impact. Our AI-powered platform analyzes your content and provides optimized versions that are more likely to resonate with your audience.
+            <div class="prose dark:prose-invert max-w-none">
+                <p class="mb-4">
+                    Welcome to Engage AI, where innovation meets intelligence. We are a cutting-edge technology company dedicated to making artificial intelligence accessible and beneficial for businesses and individuals alike.
                 </p>
-                
-                <h2 class="text-xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Key Features</h2>
-                <ul class="list-disc pl-6 space-y-2">
-                    <li>AI-powered content optimization</li>
-                    <li>Real-time analytics and insights</li>
-                    <li>Engagement metrics tracking</li>
-                    <li>Professional tone maintenance</li>
-                    <li>Hashtag optimization</li>
-                </ul>
 
-                <h2 class="text-xl font-semibold text-gray-900 dark:text-white mt-8 mb-4">Our Mission</h2>
-                <p>
-                    Our mission is to help professionals and businesses maximize their LinkedIn presence by creating engaging, algorithm-friendly content that maintains authenticity and drives meaningful connections.
+                <h2 class="text-2xl font-semibold mt-8 mb-4">Our Mission</h2>
+                <p class="mb-4">
+                    Our mission is to empower organizations and individuals with state-of-the-art AI solutions that drive growth, efficiency, and innovation. We believe in creating technology that not only solves complex problems but also enhances human capabilities.
                 </p>
+
+                <h2 class="text-2xl font-semibold mt-8 mb-4">What We Do</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                    <div class="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-2">AI Consulting</h3>
+                        <p>Expert guidance on implementing AI solutions tailored to your specific needs and goals.</p>
+                    </div>
+                    <div class="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-2">Custom Solutions</h3>
+                        <p>Develop customized AI applications that address your unique challenges and requirements.</p>
+                    </div>
+                    <div class="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-2">Training & Support</h3>
+                        <p>Comprehensive training programs and ongoing support to ensure successful AI implementation.</p>
+                    </div>
+                    <div class="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-2">Research & Development</h3>
+                        <p>Continuous innovation through research and development of new AI technologies.</p>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-semibold mt-8 mb-4">Our Values</h2>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Innovation: Pushing the boundaries of what's possible with AI</li>
+                    <li>Integrity: Maintaining the highest ethical standards in AI development</li>
+                    <li>Collaboration: Working together to create better solutions</li>
+                    <li>Excellence: Delivering exceptional results for our clients</li>
+                </ul>
             </div>
         </div>
     </main>
@@ -73,7 +93,7 @@
     <footer class="bg-white dark:bg-gray-800 border-t dark:border-gray-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
             <div class="flex justify-between items-center">
-                <p class="text-sm text-gray-500 dark:text-gray-400">© 2024 Engage Ai. All rights reserved.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">© 2025 Engage Ai. All rights reserved.</p>
             </div>
         </div>
     </footer>
